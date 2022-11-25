@@ -1,8 +1,5 @@
 from init_variables import *
-from time import sleep as rr
-
-def go():
-    dis
+from mainvar import *
 
 def refresh(hz):
     ref
@@ -17,4 +14,8 @@ def rr_test(hz):
     while time() < t_end:
         refresh(hz)
         i += 1
-    print(f"refresh rate is {i / 10}Hz; 60 was tossed")
+    print(f"refresh rate is {i / 10}Hz; 60 was the input")
+    del time
+
+def init_ui():
+    pass
